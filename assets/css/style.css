@@ -4,7 +4,7 @@
     background-size: cover;
     position: relative;
     left: -100%;
-    background-image:url(/assets/images/cover.png);
+    background-image:url(../images/cover.png);
     animation-name: home-background;
     animation-duration: 7s;
     animation-delay: 2.2s;
@@ -13,7 +13,7 @@
 }
 
 .home-header-with-slogan {
-    background-image: url(/assets/images/cover-purple-slogan.png);
+    background-image: url(../images/cover-purple-slogan.png);
     min-height: inherit;
     background-size: inherit;
     background-position: inherit;
@@ -305,9 +305,9 @@
     }
     .home-header {
         /* min-height: 25rem; */
-        background-image: url(/assets/images/default_mobile.png);
+        background-image: url(../images/default_mobile.png);
     }
     .home-header-with-slogan {
-        background-image: url(/assets/images/default_mobile_purple_slogan.png);
+        background-image: url(../images/default_mobile_purple_slogan.png);
     }
 }
