@@ -1,0 +1,307 @@
+.home-header {
+    min-height: 16rem;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    left: -100%;
+    background-image:url(/assets/images/cover.png);
+    animation-name: home-background;
+    animation-duration: 7s;
+    animation-delay: 2.2s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+.home-header-with-slogan {
+    background-image: inherit;
+    min-height: inherit;
+    background-size: inherit;
+    background-position: inherit;
+    animation: slogan 7s linear 9.5s 1 normal forwards;
+}
+
+.animation-container {
+    min-height:inherit;
+    width: inherit;
+}
+
+#ball-1, #ball-2, #ball-3, #ball-4 {
+    height: 0.5rem;
+    width: 0.5rem;
+    position: absolute;
+    border-radius: 100%;
+    background-color: black;
+    animation-duration: 7s; /* fix timings */
+    animation-delay: 1.5s;
+    animation-iteration-count: 2;
+    animation-timing-function: linear;
+}
+
+#ball-1 {
+    top: -2rem;
+    left: -1.5%;
+    animation-name: ball-1;
+}
+
+#ball-2 {
+    top: 16rem;
+    left: -1.5%;
+    animation-name: ball-2;
+    animation-delay: 1.7s;
+    background-color: black;
+}
+
+#ball-3 {
+    top: -2rem;
+    left: -1.5%;
+    animation-name: ball-3;
+    animation-delay: 1.9s;
+}
+
+#ball-4 {
+    top: 16rem;
+    left: -1.5%;
+    animation-name: ball-2;
+    background-color: black;
+    animation-delay: 2.1s;
+}
+
+
+/* Animation */
+
+/* Ball 1 coming from top */
+@keyframes ball-1 {
+    0% {
+        top: -2rem;
+        left: -1.5%;
+    }
+    10% {
+        top: 12em;
+        left: 10%;
+    }
+    20%{
+        top: 3em;
+        left: 20%;    
+    }
+    30% {
+        top: 12em;
+        left: 30%;
+    }
+    40%{
+        top: 3em;
+        left: 40%;
+    }
+    50%{
+        top: 12em;
+        left: 50%;
+    }
+    60% {
+        top: 3em;
+        left: 60%;
+    }
+    70% {
+        top: 12em;
+        left: 70%;
+    }
+    80% {
+        top: 3em;
+        left: 80%;
+    }
+    90% {
+        top: 12em;
+        left: 90%;
+    }
+    99% {
+        top: -2rem;
+        left: 105%;
+    }
+}
+
+/*Ball 2 coming from bottom */
+@keyframes ball-2 {
+    0% {
+        top: 16rem;
+        left: -1.5%;
+    }
+    10% {
+        top: 3em;
+        left: 10%;
+    }
+    20%{
+        top: 12em;
+        left: 20%;    
+    }
+    30% {
+        top: 3em;
+        left: 30%;
+    }
+    40%{
+        top: 12em;
+        left: 40%;
+    }
+    50%{
+        top: 3em;
+        left: 50%;
+    }
+    60% {
+        top: 12em;
+        left: 60%;
+    }
+    70% {
+        top: 3em;
+        left: 70%;
+    }
+    80% {
+        top: 12em;
+        left: 80%;
+    }
+    90% {
+        top: 3em;
+        left: 90%;
+    }
+    99% {
+        top: 16rem;
+        left: 105%;
+    }
+    99.1% {
+        top: -3em;
+        left: 105%;
+    }
+    99.5% {
+        top: -3em;
+        left: -1.5%;
+    }
+}
+
+/*Ball 3 coming from top with delay */
+@keyframes ball-3 {
+    0% {
+        top: -2rem;
+        left: -1.5%;
+    }
+    10% {
+        top: 12em;
+        left: 10%;
+    }
+    20%{
+        top: 3em;
+        left: 20%;    
+    }
+    30% {
+        top: 12em;
+        left: 30%;
+    }
+    40%{
+        top: 3em;
+        left: 40%;
+    }
+    50%{
+        top: 12em;
+        left: 50%;
+    }
+    60% {
+        top: 3em;
+        left: 60%;
+    }
+    70% {
+        top: 12em;
+        left: 70%;
+    }
+    80% {
+        top: 3em;
+        left: 80%;
+    }
+    90% {
+        top: 12em;
+        left: 90%;
+    }
+    99% {
+        top: -2rem;
+        left: 105%;
+    }
+}
+
+/*Ball 4 coming from bottom with delay*/
+@keyframes ball-2 {
+    0% {
+        top: 16rem;
+        left: -1.5%;
+    }
+    10% {
+        top: 3em;
+        left: 10%;
+    }
+    20%{
+        top: 12em;
+        left: 20%;    
+    }
+    30% {
+        top: 3em;
+        left: 30%;
+    }
+    40%{
+        top: 12em;
+        left: 40%;
+    }
+    50%{
+        top: 3em;
+        left: 50%;
+    }
+    60% {
+        top: 12em;
+        left: 60%;
+    }
+    70% {
+        top: 3em;
+        left: 70%;
+    }
+    80% {
+        top: 12em;
+        left: 80%;
+    }
+    90% {
+        top: 3em;
+        left: 90%;
+    }
+    99% {
+        top: 16rem;
+        left: 105%;
+    }
+    99.1% {
+        top: -3em;
+        left: 105%;
+    }
+    99.5% {
+        top: -3em;
+        left: -1.5%;
+    }
+}
+
+@keyframes home-background {
+    0% {
+        left: -100%;
+    }
+    100% {
+        left: 0%;
+    }
+}
+
+@keyframes slogan {
+    0% {
+        background-image: inherit;
+    }
+    100% {
+        background-image: url(/assets/images/cover-with-slogan.png);
+    }
+}
+
+/* Media Queries */
+
+@media (max-width: 600px){
+    .home-header {
+        /* min-height: 25rem; */
+        background-image: url(/assets/images/default_mobile.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
