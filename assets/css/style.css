@@ -13,11 +13,13 @@
 }
 
 .home-header-with-slogan {
-    background-image: inherit;
+    background-image: url(/assets/images/cover-purple-slogan.png);
     min-height: inherit;
     background-size: inherit;
     background-position: inherit;
-    animation: slogan 7s linear 9.5s 1 normal forwards;
+    position: relative;
+    top: -16rem;
+    animation: slogan 4s linear 9.8s 1 normal forwards;
 }
 
 .animation-container {
@@ -31,9 +33,9 @@
     position: absolute;
     border-radius: 100%;
     background-color: black;
-    animation-duration: 7s; /* fix timings */
+    animation-duration: 7s;
     animation-delay: 1.5s;
-    animation-iteration-count: 2;
+    animation-iteration-count: 1;
     animation-timing-function: linear;
 }
 
@@ -48,7 +50,6 @@
     left: -1.5%;
     animation-name: ball-2;
     animation-delay: 1.7s;
-    background-color: black;
 }
 
 #ball-3 {
@@ -62,10 +63,8 @@
     top: 16rem;
     left: -1.5%;
     animation-name: ball-2;
-    background-color: black;
     animation-delay: 2.1s;
 }
-
 
 /* Animation */
 
@@ -222,7 +221,7 @@
 }
 
 /*Ball 4 coming from bottom with delay*/
-@keyframes ball-2 {
+@keyframes ball-4 {
     0% {
         top: 16rem;
         left: -1.5%;
@@ -277,6 +276,7 @@
     }
 }
 
+/* Home image slide in */
 @keyframes home-background {
     0% {
         left: -100%;
@@ -286,22 +286,28 @@
     }
 }
 
+/* slogan image change */
 @keyframes slogan {
-    0% {
-        background-image: inherit;
+    from {
+        top: -16rem;
     }
-    100% {
-        background-image: url(/assets/images/cover-with-slogan.png);
+    to {
+        top: 0rem;
     }
 }
 
 /* Media Queries */
 
 @media (max-width: 600px){
+    .home-header, .home-header-with-slogan {
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
     .home-header {
         /* min-height: 25rem; */
         background-image: url(/assets/images/default_mobile.png);
-        background-size: cover;
-        background-repeat: no-repeat;
+    }
+    .home-header-with-slogan {
+        background-image: url(/assets/images/default_mobile_purple_slogan.png);
     }
 }
