@@ -4,12 +4,11 @@ $(document).ready(function () {
     //Start functions here
     for (let i = 1; i < 21; i++) {
         $(".animation-container").append("<div id='ball-" + i + "' class='ball-animation'></div>");
-        // if (i % 2 == 0) {
-        //     $("#ball-"+i).css({
-        //         "backgroundColor": "red",
-        //         "width": "10rem"
-        // })
-        // }
+        $("#ball-" + i).css({
+            "animationName": "ball-" + i,
+            "animationDelay": `${i * 0.2}s`,
+            "top": "-2rem",
+            "left": "-2%"
+        });
     };
-
 });
