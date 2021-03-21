@@ -1,7 +1,17 @@
-var button = $("button.button-1")
-var span = $("span.span-1")
+$(document).ready(function() {
+    console.log( "ready!" );
 
-$(button).on("click", function (event) {
-    span.html(" ");
-    span.addClass("py-2 px-2")
-})
+    //Start functions here
+
+    function name(params) {
+        
+    }
+    for (let i = 1; i < 21; i++) {
+        $(".animation-container").append("<div id='ball-"+i +"' class='ball-animation'></div>")           
+    }
+
+
+
+
+});
+

@@ -27,7 +27,7 @@
     width: inherit;
 }
 
-#ball-1, #ball-2, #ball-3, #ball-4 {
+.ball-animation {
     height: 0.5rem;
     width: 0.5rem;
     position: absolute;
@@ -39,29 +39,31 @@
     animation-timing-function: linear;
 }
 
-#ball-1 {
+#ball-1, #ball-3 {
     top: -2rem;
     left: -1.5%;
+}
+
+#ball-2, #ball-4 {
+    top: 16rem;
+    left: -1.5%;
+}
+
+#ball-1 {
     animation-name: ball-1;
 }
 
 #ball-2 {
-    top: 16rem;
-    left: -1.5%;
     animation-name: ball-2;
     animation-delay: 1.7s;
 }
 
 #ball-3 {
-    top: -2rem;
-    left: -1.5%;
     animation-name: ball-3;
     animation-delay: 1.9s;
 }
 
 #ball-4 {
-    top: 16rem;
-    left: -1.5%;
     animation-name: ball-2;
     animation-delay: 2.1s;
 }
