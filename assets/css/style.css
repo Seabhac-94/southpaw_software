@@ -39,7 +39,7 @@
     animation-timing-function: linear;
 }
 
-#ball-1, #ball-3 {
+/* #ball-1, #ball-3 {
     top: -2rem;
     left: -1.5%;
 }
@@ -47,7 +47,7 @@
 #ball-2, #ball-4 {
     top: 16rem;
     left: -1.5%;
-}
+} */
 
 #ball-1 {
     animation-name: ball-1;
