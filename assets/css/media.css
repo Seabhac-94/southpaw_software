@@ -1,0 +1,30 @@
+/* Media Queries */
+
+@media (max-width: 600px){
+    .home-header, .home-header-with-slogan {
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .home-header {
+        /* min-height: 25rem; */
+        background-image: url(../images/default_mobile.png);
+    }
+    .home-header-with-slogan {
+        background-image: url(../images/default_mobile_purple_slogan.png);
+    }
+}
+
+@media screen and (min-width: 1600px){
+    .home-header-with-slogan {
+        min-height: 30rem;
+        top: -30rem;
+    }
+    @keyframes slogan {
+        from {
+            top: -31rem;
+        }
+        to {
+            top: 0rem;
+        }
+    }
+}
