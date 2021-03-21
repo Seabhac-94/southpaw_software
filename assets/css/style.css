@@ -14,9 +14,9 @@
 
 .home-header-with-slogan {
     background-image: url(../images/cover-purple-slogan.png);
-    min-height: inherit;
-    background-size: inherit;
-    background-position: inherit;
+    min-height: 16rem;
+    background-size: cover;
+    background-position: center;
     position: relative;
     top: -16rem;
     animation: slogan 4s linear 11.2s 1 normal forwards;
@@ -35,7 +35,7 @@
     background-color: black;
     animation-duration: 7s;
     animation-delay: 1.5s;
-    animation-iteration-count: 1;
+    animation-iteration-count: 2.5;
     animation-timing-function: linear;
 }
 
@@ -1098,9 +1098,9 @@
 }
 
 @media screen and (min-width: 1600px){
-    .home-header-with-slogan{
+    .home-header-with-slogan {
         min-height: 30rem;
-        top: -31rem;
+        top: -30rem;
     }
     @keyframes slogan {
         from {
