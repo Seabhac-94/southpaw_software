@@ -7,15 +7,19 @@
     }
     .home-header {
         /* min-height: 25rem; */
-        background-image: url(../images/default_mobile.png);
+        /* background-image: url(../images/default_mobile.png); */
+        background-image: url(../images/default_mobile_purple_slogan.png);
     }
     .home-header-with-slogan {
         background-image: url(../images/default_mobile_purple_slogan.png);
     }
 }
 
-@media screen and (min-width: 1600px){
-    .home-header-with-slogan {
+@media (min-width: 1600px){
+    .home-header {
+        min-height: 19rem;
+    }
+    /* .home-header-with-slogan {
         min-height: 30rem;
         top: -30rem;
     }
@@ -25,6 +29,259 @@
         }
         to {
             top: 0rem;
+        }
+    } */
+
+    @keyframes ball-1 {
+        0% {
+            top: -2rem;
+            left: -1.5%;
+        }
+    
+        10% {
+            top: 16rem;
+            left: 10%;
+        }
+    
+        20% {
+            top: 3em;
+            left: 20%;
+        }
+    
+        30% {
+            top: 16rem;
+            left: 30%;
+        }
+    
+        40% {
+            top: 3em;
+            left: 40%;
+        }
+    
+        50% {
+            top: 16rem;
+            left: 50%;
+        }
+    
+        60% {
+            top: 3em;
+            left: 60%;
+        }
+    
+        70% {
+            top: 16rem;
+            left: 70%;
+        }
+    
+        80% {
+            top: 3em;
+            left: 80%;
+        }
+    
+        90% {
+            top: 16rem;
+            left: 90%;
+        }
+    
+        99% {
+            top: -2rem;
+            left: 105%;
+        }
+    }
+    
+    @keyframes ball-2 {
+        0% {
+            top: 16rem;
+            left: -1.5%;
+        }
+    
+        10% {
+            top: 3em;
+            left: 10%;
+        }
+    
+        20% {
+            top: 16rem;
+            left: 20%;
+        }
+    
+        30% {
+            top: 3em;
+            left: 30%;
+        }
+    
+        40% {
+            top: 16rem;
+            left: 40%;
+        }
+    
+        50% {
+            top: 3em;
+            left: 50%;
+        }
+    
+        60% {
+            top: 16rem;
+            left: 60%;
+        }
+    
+        70% {
+            top: 3em;
+            left: 70%;
+        }
+    
+        80% {
+            top: 16rem;
+            left: 80%;
+        }
+    
+        90% {
+            top: 3em;
+            left: 90%;
+        }
+    
+        99% {
+            top: 16rem;
+            left: 105%;
+        }
+    
+        99.1% {
+            top: -3em;
+            left: 105%;
+        }
+    
+        99.5% {
+            top: -3em;
+            left: -1.5%;
+        }
+    }
+}
+
+@media (min-width: 2000px) {
+    .home-header {
+        min-height: 25rem;
+    }
+    @keyframes ball-1 {
+        0% {
+            top: -2rem;
+            left: -1.5%;
+        }
+    
+        10% {
+            top: 23rem;
+            left: 10%;
+        }
+    
+        20% {
+            top: 3em;
+            left: 20%;
+        }
+    
+        30% {
+            top: 23rem;
+            left: 30%;
+        }
+    
+        40% {
+            top: 3em;
+            left: 40%;
+        }
+    
+        50% {
+            top: 23rem;
+            left: 50%;
+        }
+    
+        60% {
+            top: 3em;
+            left: 60%;
+        }
+    
+        70% {
+            top: 23rem;
+            left: 70%;
+        }
+    
+        80% {
+            top: 3em;
+            left: 80%;
+        }
+    
+        90% {
+            top: 23rem;
+            left: 90%;
+        }
+    
+        99% {
+            top: -2rem;
+            left: 105%;
+        }
+    }
+    
+    @keyframes ball-2 {
+        0% {
+            top: 23rem;
+            left: -1.5%;
+        }
+    
+        10% {
+            top: 3em;
+            left: 10%;
+        }
+    
+        20% {
+            top: 23rem;
+            left: 20%;
+        }
+    
+        30% {
+            top: 3em;
+            left: 30%;
+        }
+    
+        40% {
+            top: 23rem;
+            left: 40%;
+        }
+    
+        50% {
+            top: 3em;
+            left: 50%;
+        }
+    
+        60% {
+            top: 23rem;
+            left: 60%;
+        }
+    
+        70% {
+            top: 3em;
+            left: 70%;
+        }
+    
+        80% {
+            top: 23rem;
+            left: 80%;
+        }
+    
+        90% {
+            top: 3em;
+            left: 90%;
+        }
+    
+        99% {
+            top: 23rem;
+            left: 105%;
+        }
+    
+        99.1% {
+            top: -3em;
+            left: 105%;
+        }
+    
+        99.5% {
+            top: -3em;
+            left: -1.5%;
         }
     }
 }

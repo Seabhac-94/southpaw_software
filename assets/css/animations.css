@@ -6,42 +6,52 @@
         top: -2rem;
         left: -1.5%;
     }
+
     10% {
         top: 12em;
         left: 10%;
     }
-    20%{
+
+    20% {
         top: 3em;
-        left: 20%;    
+        left: 20%;
     }
+
     30% {
         top: 12em;
         left: 30%;
     }
-    40%{
+
+    40% {
         top: 3em;
         left: 40%;
     }
-    50%{
+
+    50% {
         top: 12em;
         left: 50%;
     }
+
     60% {
         top: 3em;
         left: 60%;
     }
+
     70% {
         top: 12em;
         left: 70%;
     }
+
     80% {
         top: 3em;
         left: 80%;
     }
+
     90% {
         top: 12em;
         left: 90%;
     }
+
     99% {
         top: -2rem;
         left: 105%;
@@ -53,50 +63,62 @@
         top: 16rem;
         left: -1.5%;
     }
+
     10% {
         top: 3em;
         left: 10%;
     }
-    20%{
+
+    20% {
         top: 12em;
-        left: 20%;    
+        left: 20%;
     }
+
     30% {
         top: 3em;
         left: 30%;
     }
-    40%{
+
+    40% {
         top: 12em;
         left: 40%;
     }
-    50%{
+
+    50% {
         top: 3em;
         left: 50%;
     }
+
     60% {
         top: 12em;
         left: 60%;
     }
+
     70% {
         top: 3em;
         left: 70%;
     }
+
     80% {
         top: 12em;
         left: 80%;
     }
+
     90% {
         top: 3em;
         left: 90%;
     }
+
     99% {
         top: 16rem;
         left: 105%;
     }
+
     99.1% {
         top: -3em;
         left: 105%;
     }
+
     99.5% {
         top: -3em;
         left: -1.5%;
@@ -106,19 +128,22 @@
 /* Home image slide in */
 @keyframes home-background {
     0% {
-        left: -100%;
+        opacity: 0;
     }
+
     100% {
-        left: 0%;
+        opacity: 1;
     }
 }
 
-/* slogan image change */
+/* slogan image change 
 @keyframes slogan {
     from {
         top: -16rem;
     }
+
     to {
         top: 0rem;
     }
 }
+*/

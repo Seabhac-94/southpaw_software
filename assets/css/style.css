@@ -3,16 +3,18 @@
     background-position: center;
     background-size: cover;
     position: relative;
-    left: -100%;
-    background-image:url(../images/cover.png);
+    /* left: -100%; */
+    opacity: 0;
+    /* background-image:url(../images/cover.png); */
+    background-image: url(../images/cover-purple-slogan.png);
     animation-name: home-background;
     animation-duration: 7s;
-    animation-delay: 5.1s;
-    animation-timing-function: linear;
+    animation-delay: 0.5s;
+    animation-timing-function:cubic-bezier(0.25, 0.5, 0.75, 1);
     animation-fill-mode: forwards;
 }
 
-.home-header-with-slogan {
+/* .home-header-with-slogan {
     background-image: url(../images/cover-purple-slogan.png);
     min-height: 16rem;
     background-size: cover;
@@ -20,7 +22,7 @@
     position: relative;
     top: -16rem;
     animation: slogan 4s linear 12.5s 1 normal forwards;
-}
+} */
 
 .animation-container {
     min-height:inherit;
@@ -34,7 +36,7 @@
     border-radius: 100%;
     background-color: black;
     animation-duration: 7s;
-    animation-delay: 1.5s;
-    animation-iteration-count: 2.5;
+    animation-delay: 0.5s;
+    animation-iteration-count: 1.5;
     animation-timing-function: linear;
 }
