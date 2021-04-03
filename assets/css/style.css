@@ -68,3 +68,13 @@ body {
     background-color: rgba(0, 0, 0, 0.8);
     color: #F2F2F2 ;
 }
+
+.shutter_card {
+    background-image: url(../images/shutter_mobile.png);
+    background-size:cover;
+    min-height: 40rem;
+}
+
+.share_a_script_card {
+    
+}
