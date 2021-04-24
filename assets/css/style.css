@@ -70,11 +70,15 @@ body {
 }
 
 .shutter_card {
-    background-image: url(../images/shutter_mobile.png);
-    background-size:cover;
+    background-image: url(../images/shutter_desktop.png);
+    background-size:contain;
+    background-repeat: no-repeat;
     min-height: 40rem;
 }
 
 .share_a_script_card {
-    
+    background-image: url(../images/share_a_script_desktop.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    min-height: 40rem;
 }
